@@ -5,8 +5,13 @@
 }
 
 :root {
---primary-color: #29DFD4;
---secondary-color: #3F4B4A;
+--primary-color: #1BFFB0;
+--secondary-color: #420F6E;
+}
+
+/* Body */
+body {
+    background-color: #CADAD9;
 }
 
 /* Header */
@@ -27,6 +32,7 @@ header {
 .main-nav {
     width: 30%;
 }
+
 .main-nav ul {
     display: flex;
     justify-content: space-around;
@@ -40,7 +46,9 @@ header {
     font-size: 20px;
 }
 
-/* Body */
-body {
-    background-color: #d9dcd6;
+/* Hero */
+.hero {
+    background-image: url(../images/fantasy-scenery.jpg);
+    height: 355px;
+    background-size: cover;
 }
