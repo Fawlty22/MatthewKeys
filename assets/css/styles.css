@@ -9,11 +9,12 @@
 --primary-color: #1BFFB0;
 --secondary-color: #420F6E;
 --tertiary-color: #1F1883;
+--background-color: #cad0de;
 }
 
 /* Body */
 body {
-    background-color: #cad0da;
+    background-color: var(--background-color);
 }
 
 /* Header */
@@ -92,14 +93,42 @@ main {
 .work-element {
     border: 2px solid var(--secondary-color);
     width: 45%;
-    height: 100px;
+    height: 200px;
     margin: 2.5%;
 } 
 
 .main-work-element {
     width: 100%;
-    height: 100px;
+    height: 200px;
+    background-image: url(../images/run-buddy-screenshot.png);
+    background-position: center;
+    background-size: cover;
 }
+
+.surf {
+    background-image: url(../images/surf.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.puzzle {
+    background-image: url(../images/puzzle.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.calculator {
+    background-image: url(../images/calculator.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.led-wall {
+    background-image: url(../images/led-wall.png);
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* Contact Me Section */ 
 .contact-nav {
@@ -118,7 +147,6 @@ main {
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
     font-size: 20px;
-    
 }
 
 /* Footer */
