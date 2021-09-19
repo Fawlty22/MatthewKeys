@@ -109,6 +109,7 @@ main {
 .contact-nav ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     color: var(--tertiary-color);
 }
@@ -117,4 +118,30 @@ main {
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
     font-size: 20px;
+    
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+}
+
+footer h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
