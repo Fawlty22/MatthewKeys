@@ -79,7 +79,7 @@ main {
 }
 
 .section-title h2 {
-    font-size: 36px;
+    font-size: 30px;
     border-right: 3px solid var(--secondary-color);
     padding: 5px 5px 5px 40px;
     text-align: right;
@@ -326,6 +326,44 @@ header nav ul li a {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
    .contact-nav a {
-       font-size: 14px;
+       font-size: 12px;
    }
+
+   .section-title h2 {
+       font-size: 12px;
+   }
+
+   .p-container p {
+       font-size: 10px;
+   }
+
+   .p-container {
+        width: 75%;
+    }
+
+    .work-container {
+        width: 75%;
+    }
+
+    .contact-nav {
+        width: 75%;
+    }
+    
+    .section-title h2 {
+    width: 20%;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 375px) {
+    .section-title h2 {
+        font-size: 8px;
+    }
+    .contact-nav a {
+        font-size: 10px;
+    }
+    .p-container p {
+        font-size: 8px;
+    }
+   
 }
