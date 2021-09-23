@@ -107,11 +107,32 @@ main {
     width: 85%;
 }
 
+.work-element-text {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.work-element-text span {
+    font-size: 14px;
+}
+
 .work-element {
     border: 2px solid var(--secondary-color);
     width: 45%;
     height: 300px;
     margin: 2.5%;
+    opacity: 1;
+    display: flex;
+    align-items:flex-end;
+    justify-content: left;
+} 
+
+.work-element:hover {
+    border: 2px solid var(--secondary-color);
+    width: 45%;
+    height: 300px;
+    margin: 2.5%;
+    opacity: 0.5;
 } 
 
 .main-work-element {
@@ -119,7 +140,18 @@ main {
     background-image: url(../images/run-buddy-screenshot.png);
     background-position: center;
     background-size: cover;
+    opacity: 1;
 }
+
+.main-work-element:hover {
+    width: 100%;
+    background-image: url(../images/run-buddy-screenshot.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
 
 .surf {
     background-image: url(../images/surf.png);
@@ -172,6 +204,7 @@ main {
     display: flex;
     align-items: center;
 }
+
 .contact-nav a:hover {
     text-decoration: none;
     border-radius: 3px;
@@ -202,6 +235,7 @@ footer h4 {
     justify-content: center;
     align-items: center;
 }
+
 footer span {
     width: 100%;
     display: flex;
