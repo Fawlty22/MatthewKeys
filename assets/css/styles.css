@@ -47,7 +47,7 @@ header {
     text-decoration: none;
     color: var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .main-nav a:hover {
@@ -55,7 +55,7 @@ header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-bottom: 3px solid var(--tertiary-color);
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /* Hero */
@@ -212,7 +212,7 @@ main {
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
@@ -247,31 +247,73 @@ footer span {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-      }
-  
-      header h1 {
-          width: 100%;
-          text-align: center;
-      }
-  
-      header nav ul {
-          margin-top: 20px;
-          width: 100%;
-          justify-content: center;
-        }
-      
-        header nav ul li a {
-          font-size: 20px;
-        }
+header {
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.main-nav {
+    width: 70%;
+    align-items: center;
+}
+header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    font-size: 16px;
+}
+
+.section-title h2 {
+    font-size: 20px;
+}
+
+.contact-nav a {
+    font-size: 20px;
+}
+    
 }
   
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 772px) {
+.main-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    font-size: 14px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+}
+
+.contact-nav a {
+    font-size: 16px;
+}
+
+.p-container p {
+    font-size: 12px;
+}
+
+.work-element-text p {
+    font-size: 16px;
+}
+
+.work-element-text span {
+    font-size: 12px;
+}
+
+
 }
   
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
