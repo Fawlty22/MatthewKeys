@@ -8,7 +8,7 @@
 :root {
 --primary-color: #1BFFB0;
 --secondary-color: #420F6E;
---tertiary-color: #1F1883;
+--tertiary-color: #FB65DB;
 --background-color: #cad0de;
 }
 
@@ -42,10 +42,19 @@ header {
     list-style-type: none;
     color: var(--primary-color);
 }
+
 .main-nav a {
     text-decoration: none;
     color: var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
+    font-size: 20px;
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--tertiary-color);
     font-size: 20px;
 }
 
@@ -149,12 +158,31 @@ main {
     list-style-type: none;
     color: var(--tertiary-color);
 }
+
+.contact-nav li {
+    display: flex;
+    align-items: center;
+}
+
 .contact-nav a {
     text-decoration: none;
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
     font-size: 20px;
+    display: flex;
+    align-items: center;
 }
+.contact-nav a:hover {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-bottom: 3px solid var(--tertiary-color);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
 
 /* Footer */
 footer {
@@ -181,24 +209,39 @@ footer span {
     align-items: center;
 }
 
+
+/* MEDIA QUERIES */ 
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-    }
-
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
+        padding-bottom: 0;
         justify-content: center;
+        position: relative;
       }
+  
+      header h1 {
+          width: 100%;
+          text-align: center;
+      }
+  
+      header nav ul {
+          margin-top: 20px;
+          width: 100%;
+          justify-content: center;
+        }
+      
+        header nav ul li a {
+          font-size: 20px;
+        }
+}
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
     
-      header nav ul li a {
-        font-size: 20px;
-      }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
+}
