@@ -112,9 +112,11 @@ main {
     color: var(--primary-color);
     font-size: 20px;
 }
+
 .work-element-text span {
     font-size: 14px;
 }
+
 
 .work-element {
     border: 2px solid var(--secondary-color);
@@ -189,6 +191,7 @@ main {
     align-items: center;
     list-style-type: none;
     color: var(--tertiary-color);
+    height: 100px;
 }
 
 .contact-nav li {
@@ -200,9 +203,7 @@ main {
     text-decoration: none;
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
-    font-size: 20px;
-    display: flex;
-    align-items: center;
+    font-size: 24px;
 }
 
 .contact-nav a:hover {
@@ -212,8 +213,6 @@ main {
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
     font-size: 20px;
-    display: flex;
-    align-items: center;
 }
 
 
